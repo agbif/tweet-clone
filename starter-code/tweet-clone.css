@@ -1,0 +1,126 @@
+html {
+  background-color: #D3D3D3;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.username {
+  display: inline;
+  margin: 0 5px 0 5px;
+}
+
+.tweetbox {
+  width: 700px;
+  height:300px;
+  background-color: white;
+  border: 2px solid grey;
+}
+/*./img/profile-picture.jpg*/
+.profile-picture {
+  margin-top: 25px;
+  float: left;
+  margin-right: 30px;
+  margin-left: 25px;
+}
+
+.jack-box {
+    /*display: inline-block;*/
+    float: left;
+    margin: 0px;
+    margin-top: 25px;
+  }
+
+.account-logo {
+  display: inline-block;
+  margin:10px
+  border: 3px solid orange
+}
+
+.check {
+    display: inline-block;
+    margin: 0px;
+  }
+
+  .tweet-button {
+    float: right;
+    border: 3px solid #55acee;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 25px 35px 0 0;
+  }
+
+  .tweet-button > p {
+    display: inline;
+    color: #55acee;
+    font-size: 30px;
+  }
+
+  .tweet-button > img {
+    position: relative;
+    top: 5px;
+  }
+
+  .body-paragraph {
+    clear: both;
+    position: relative;
+    top: 40px;
+    left: 15px;
+  }
+
+
+.body-paragraph > h2 {
+  position: relative;
+}
+
+.date-time {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.bottom > p {
+  display: inline;
+}
+
+.bottom {
+  clear: both;
+  position: relative;
+  top: 80px;
+}
+
+.reply {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.retweet {
+  margin-right: 5px;
+}
+
+.favorite {
+  margin-left: 25px;
+}
+
+
+}
+}
+}
+}
+/*.tweetbox{
+  border: 2px solid grey;
+  background-color: white;
+  width: 600px;
+  height: 300px;
+  margin: -260px 0 0 -500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}*/
+/*.nametag {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}*/
